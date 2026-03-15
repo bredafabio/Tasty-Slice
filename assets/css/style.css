@@ -1,10 +1,35 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Macondo&family=Petrona:ital,wght@0,100..900;1,100..900&display=swap');
 
-h1 {
-    font-family: "Macondo", sans-serif;
+:root {
+    --primary-font: "Petrona", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primnary-color:  #913C3C;
+    --secondary-color: #E1DBD5;
+    --highlight-color: #111550;
+    --light-highlight-color: #D69E9E;
 }
 
-p {
-    font-family: "Petrona", sans-serif;
+/* Global Styles */
+
+body {
+    font-family: var(--primary-font);
+}
+
+h1,h2,h3 {
+    font-family: var(--secondary-font);
+    color: var(--primnary-color);    
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
+}
+
+.container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid yellow;
 }
