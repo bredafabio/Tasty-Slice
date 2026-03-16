@@ -25,6 +25,12 @@
 #header .lead {
     text-align: justify;
 }
+
+#competition .lead {
+    text-transform: capitalize;
+}
+
+
 /* Global Styles */
 
 body {
