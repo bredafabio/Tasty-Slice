@@ -10,6 +10,17 @@
     --light-highlight-color: #D69E9E;
 }
 
+/* Navbar */
+
+#navbar {
+    background-color: var(--primnary-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#navbar img {
+    width: 30px;
+}
 /* Global Styles */
 
 body {
