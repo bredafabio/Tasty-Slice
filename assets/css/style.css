@@ -21,6 +21,10 @@
 #navbar img {
     width: 30px;
 }
+
+#header .lead {
+    text-align: justify;
+}
 /* Global Styles */
 
 body {
@@ -29,11 +33,17 @@ body {
 
 h1,h2,h3 {
     font-family: var(--secondary-font);
-    color: var(--primnary-color);    
+    color: var(--primnary-color); 
+    text-transform: uppercase;   
 }
 
 .sub-heading-color {
     color: var(--highlight-color);
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* .container,
