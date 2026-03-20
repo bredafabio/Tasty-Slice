@@ -39,6 +39,20 @@ h3.sub-heading-color {
   margin-bottom: 2rem;
 }
 
+/* Buttons */
+
+.custom-button-filled {
+  border: 2px solid var(--light-highlight-color);
+  background-color: var(--highlight-color);
+  color: var(--secondary-color);
+}
+
+.custom-button-filled:hover {
+  border: 2px solid var(--primary-color);
+  background-color: var(--light-highlight-color);
+  color: var(--highlight-color);
+}
+
 /* Navbar */
 
 #navbar {
@@ -52,8 +66,21 @@ h3.sub-heading-color {
   transition: color 0.3s ease-in-out;
 }
 
+/* Ensure the Book now button size matches all the links */
+
+#navbar .nav-link,
+#navbar .btn {
+  font-size: 1.2rem;
+}
+
 #navbar .nav-link:hover {
   color: var(--highlight-color);
+}
+
+/* Cor do link quando estiver ativo */
+.navbar-nav .nav-link.active {
+  color: black !important; /* Cor de destaque (ex: Tomate) */
+  font-weight: bold;
 }
 
 /* Header */
