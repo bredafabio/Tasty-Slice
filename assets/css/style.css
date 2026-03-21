@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Google fonts import */
 @import url("https://fonts.googleapis.com/css2?family=Macondo&family=Petrona:ital,wght@0,100..900;1,100..900&display=swap");
 
@@ -75,6 +82,8 @@ h3.sub-heading-color {
 #navbar .nav-link {
   color: var(--secondary-color);
   font-weight: 700;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 
@@ -103,6 +112,7 @@ h3.sub-heading-color {
 
 .card-img-top {
   height: 200px;
+  -o-object-fit: cover;
   object-fit: cover;
   width: 100%;
 }
@@ -131,6 +141,8 @@ h3.sub-heading-color {
 
 #contact .social-links i {
   font-size: 1.5rem;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 
