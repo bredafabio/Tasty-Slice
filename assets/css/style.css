@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 /* Google fonts import */
 @import url("https://fonts.googleapis.com/css2?family=Macondo&family=Petrona:ital,wght@0,100..900;1,100..900&display=swap");
 
@@ -54,8 +47,18 @@ h3.sub-heading-color {
   font-weight: 400;
 }
 
+#restaurant,
+#menu {
+  padding-bottom: 1rem;
+}
+
 .section {
   padding: 4rem; /*Prevent the navbar from overlapping content */
+}
+
+#restaurant {
+  padding-top: 3rem !important; /* Reduce the internal space at the top */
+  margin-top: -2rem; /* Pull the entire section up */
 }
 
 /* Buttons */
@@ -98,9 +101,9 @@ h3.sub-heading-color {
   color: var(--highlight-color);
 }
 
-/* Cor do link quando estiver ativo */
+/* Link color when active */
 .navbar-nav .nav-link.active {
-  color: black !important; /* Cor de destaque (ex: Tomate) */
+  color: black !important;
   font-weight: bold;
 }
 
@@ -115,6 +118,19 @@ h3.sub-heading-color {
   -o-object-fit: cover;
   object-fit: cover;
   width: 100%;
+}
+
+/* Restaurant Section */
+
+#restaurant .card {
+  margin-bottom: 1.5rem;
+}
+
+/* Competition header */
+
+#competition-header {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #ffffff;
 }
 
 /* Competition Section */

@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-  <!-- These classes work with the class mt-auto placed on footer to ensure it stays at the bottom of the page -->
+  <!-- Body -->
   <body class="d-flex flex-column">
     <!-- Navigation -->
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -104,7 +104,7 @@
               </div>
               <div class="carousel-item">
                 <img
-                  src="assets/images/pexels-narda-yescas-724842-1566837(1).jpg"
+                  src="assets/images/pexels-narda-yescas-724842-1566837 (1).jpg"
                   class="d-block w-100"
                   alt="3 different pizza flauvors"
                 />
@@ -149,7 +149,7 @@
     <!-- Main element to hold all key sections -->
     <main>
       <!-- Restaurant Section -->
-      <section class="container section">
+      <section id="restaurant" class="container section">
         <div class="row">
           <div class="col-12 text-center">
             <h2 class="display-6">The Restaurant</h2>
@@ -203,6 +203,7 @@
           </div>
         </div>
       </section>
+
       <!-- Menu Section  -->
       <section id="menu" class="container section">
         <div class="row">
@@ -297,7 +298,6 @@
     </main>
 
     <!-- Footer / Contact section -->
-    <!-- mt-auto (margin-top) added to push footer to the bottom of the page -->
     <footer id="contact">
       <div class="container section">
         <div class="row">
@@ -374,12 +374,15 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
     <!-- Font Awesome kit -->
     <script
       src="https://kit.fontawesome.com/7f8e80707e.js"
       crossorigin="anonymous"
     ></script>
-    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links 
+     External code taken from Code Institute-->
     <script>
       document
         .querySelectorAll(".navbar-collapse .nav-link")
