@@ -22,7 +22,6 @@ Tasty-Slice is a responsive landing page developed for a fictional pizzeria. The
 - **Reservation System:** Call-to-action (CTA) button directing users to booking.html.
 
 📐 Wireframes
-
 Below are the wireframes created during the planning phase of the project.
 They are provided as external links for easy access.
 
