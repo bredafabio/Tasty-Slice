@@ -26,19 +26,19 @@ Tasty-Slice is a responsive landing page developed for a fictional pizzeria. The
 Below are the wireframes created during the planning phase of the project.
 They are provided as external links for easy access.
 
-1. - **Large screen:**
+1. **Large screen:**
 
 - https://wireframe.cc/qt1xuD
 - https://wireframe.cc/iMGU75
 - https://wireframe.cc/UohUwX
 
-2. - **Medium screen:**
+2. **Medium screen:**
 
 - https://wireframe.cc/KPgUCU
 - https://wireframe.cc/SiyJcP
 - https://wireframe.cc/qQdSWM
 
-3. - **Mobile:**
+3. **Mobile:**
 
 - https://wireframe.cc/X39zuj
 - https://wireframe.cc/luO1bg
